@@ -175,3 +175,12 @@ cython_debug/
 # raw vector DBs
 Vectorestor/
 *.sqlite3
+
+
+# .gitignore
+# Chroma/FAISS/etc artefacts – kept out of Git
+/Vectorestor/
+/**/Vectorestor/
+*.sqlite3
+*.bin
+*.pickle
